@@ -4,18 +4,26 @@
 <p>Adonias Barros - Computer Engineer - Federal University of Pernambuco - Brazil.</p>
 
 
-### Subjects covered in the course
+### Subjects covered in this course
 
-* HTML
-* CSS
-* Bootstrap and Bootstrap 4
-* Javascript
+<p>It includes 392 lessons with 47 hours videos</p>
+
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap 4
+* SemanticUI
 * DOM Manipulation
 * jQuery
-* Node.js
-* Databases
-* RESTful
-* Git and Github
-* Deploying
+* Unix(Command Line) Commands
+* NodeJS
+* NPM
+* ExpressJS
+* REST
+* MongoDB
+* Database Associations
+* Authentication
+* PassportJS
+* Authorization
 
 For more information: https://www.udemy.com/the-web-developer-bootcamp
