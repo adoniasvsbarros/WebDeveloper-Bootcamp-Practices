@@ -1,5 +1,5 @@
 //list
-var listPeople = ["ado", "este", "aud"];
+var listPeople = [30,70,24,38,10];
 
 //reverse - prints a reversed list
 function printReverse(list){
@@ -39,3 +39,27 @@ function maxArray(array){
     })
     return max;
 }
+
+// custom forEach
+function myForEach(arr, func){
+    for(var i =0; i < arr.length; i++){
+        func(arr[i]);
+    }
+}
+var colors = ["red", "orange", "blue"];
+
+//passing an alert function
+myForEach(colors,alert())
+
+//passing an anonymous function
+myForEach(colors,function(color){
+    console.log(color);
+})
+
+//calling function from object array
+Array.prototype.myForEach = function(func){
+    for(var i = 0; i < this.length; i++){
+        func(this[i]);
+    }
+}
+colors.myForEach(alert);
