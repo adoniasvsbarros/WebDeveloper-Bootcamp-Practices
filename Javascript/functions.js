@@ -1,3 +1,5 @@
+// Functions in Javascript
+
 // function declarations
 
 // function
@@ -36,7 +38,7 @@ function factorial(x){
     return result;
 }
 
-//kebab to snake
+//changing kebab-cae to snake_case
 function kebabToSnake(kebabStr){
     var newChar = "_";
     return kebabStr.split("-").join(newChar);

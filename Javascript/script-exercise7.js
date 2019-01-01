@@ -1,3 +1,5 @@
+// Exercise 7 - Multiple functions with arrays
+
 //list
 var listPeople = [30,70,24,38,10];
 

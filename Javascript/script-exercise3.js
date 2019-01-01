@@ -1,4 +1,5 @@
-<!-- Conditions in javascript -->
+// Conditions in javascript
+
 var age = prompt("what is your age? ")
 
 if(age < 0){

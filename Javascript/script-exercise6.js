@@ -1,3 +1,5 @@
+// Exercise 6 - App for manipulating lists
+
 // global variable
 var list = [];
 

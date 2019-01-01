@@ -1,4 +1,5 @@
-<!-- Exercise 1 - Ask for user's name and age, and print them -->
+// Exercise 1 - Ask for user's name and age, and print them
+
 var firstName = prompt("what is your first name?");
 var lastName = prompt("what is your last name?");
 var age = prompt("what is your age?");

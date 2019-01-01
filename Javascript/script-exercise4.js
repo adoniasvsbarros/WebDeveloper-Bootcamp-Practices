@@ -1,4 +1,4 @@
-<!-- Guessing a number -->
+// Guessing a number game
 
 // create secret number
 var secretNumber = 7;
@@ -17,6 +17,7 @@ else{
     alert("You guessed the number! Congratulations!");
 }
 
+// small exercise
 var number = 5;
 
 while(number <= 50){
