@@ -1,6 +1,8 @@
 // jQuery methods - val(), text(), attr(), html(), addClass(), removeClass(), toggleClass()
 // all methods can be viewed in the jQuery API Documentation
 
+// adjust image sizes
+$("img").css("width","200px");
 
 // selecting or changing texts
 $("h1").text();
@@ -16,8 +18,6 @@ $("input").attr("type", "text");
 $("img:first-of-type").attr("src","https://i.imgur.com/mTj3ney.jpg");
 // changes only last img
 $("img").last().attr("src","https://i.imgur.com/mTj3ney.jpg");
-
-$("img").css("width","200px");
 
 // selecting or changing values
 $("input").val();
