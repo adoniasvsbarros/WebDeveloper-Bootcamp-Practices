@@ -1,0 +1,13 @@
+<% include partials/header%>
+<h1>You fell in love with:  <%= dogVar.toUpperCase() %> </h1>
+
+<% if(dogVar.toLowerCase() === "rusty"){ %>
+    <p>GOOD CHOICE! RUSTY IS THE BEST!</p>
+<% } else { %>
+    <p>Bad choice, you should have said rusty!</p>
+<% } %>
+
+<p>P.S. this is the love.ejs file</p>        
+
+
+<% include partials/footer%>
