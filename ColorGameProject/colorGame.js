@@ -1,3 +1,4 @@
+// variables
 var numSquares = 6;
 var colors = [];
 var pickedColor;
@@ -8,6 +9,7 @@ var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
 
+// init game
 init();
 
 function init(){
@@ -18,7 +20,6 @@ function init(){
 
 function setupSquares(){
     for(var i =0; i < squares.length; i++){
-        // add initial colors to squares
         // add click listeners to squares
         squares[i].addEventListener("click", function(){
             // grab color of clicked square
@@ -40,6 +41,7 @@ function setupSquares(){
 
 function setupModeButtons(){
     for(var i = 0; i < modeButtons.length; i++){
+        // add click listeners to buttons
         modeButtons[i].addEventListener("click", function(){
             modeButtons[0].classList.remove("selected");
             modeButtons[1].classList.remove("selected");
